@@ -1,0 +1,10 @@
+#pragma once
+
+enum COMMAND_TYPE{
+    MONTOR_START = 0,
+    MONTOR_STOP,
+    SERVO_START,
+    SERVO_STOP,
+    LASER_START,
+    LASER_STOP,
+};

@@ -1,0 +1,82 @@
+[0.033s] Invoking command in '/home/qianxunslimg/Desktop/study/ros_study/fish_ros/chapt1/creat_node_with_rclcpp/build/example_cpp': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/qianxunslimg/Desktop/study/ros_study/fish_ros/chapt1/creat_node_with_rclcpp/src -DCMAKE_INSTALL_PREFIX=/home/qianxunslimg/Desktop/study/ros_study/fish_ros/chapt1/creat_node_with_rclcpp/install/example_cpp
+[0.091s] -- The C compiler identification is GNU 9.4.0
+[0.160s] -- The CXX compiler identification is GNU 9.4.0
+[0.166s] -- Check for working C compiler: /usr/bin/cc
+[0.254s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.255s] -- Detecting C compiler ABI info
+[0.342s] -- Detecting C compiler ABI info - done
+[0.358s] -- Detecting C compile features
+[0.359s] -- Detecting C compile features - done
+[0.360s] -- Check for working CXX compiler: /usr/bin/c++
+[0.475s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.476s] -- Detecting CXX compiler ABI info
+[0.561s] -- Detecting CXX compiler ABI info - done
+[0.581s] -- Detecting CXX compile features
+[0.582s] -- Detecting CXX compile features - done
+[0.585s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.618s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.618s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.868s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.924s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.934s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.039s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.085s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.185s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.244s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.245s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.247s] -- Looking for pthread.h
+[1.349s] -- Looking for pthread.h - found
+[1.350s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.465s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.465s] -- Looking for pthread_create in pthreads
+[1.573s] -- Looking for pthread_create in pthreads - not found
+[1.578s] -- Looking for pthread_create in pthread
+[1.674s] -- Looking for pthread_create in pthread - found
+[1.675s] -- Found Threads: TRUE  
+[1.872s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.990s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.992s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.992s] -- Configured cppcheck include dirs: 
+[1.992s] -- Configured cppcheck exclude dirs and/or files: 
+[1.994s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.994s] -- Configured cpplint exclude dirs and/or files: 
+[1.996s] -- Added test 'lint_cmake' to check CMake code style
+[1.998s] -- Added test 'uncrustify' to check C / C++ code style
+[1.998s] -- Configured uncrustify additional arguments: 
+[1.998s] -- Added test 'xmllint' to check XML markup files
+[2.006s] -- Configuring done
+[2.018s] -- Generating done
+[2.020s] -- Build files have been written to: /home/qianxunslimg/Desktop/study/ros_study/fish_ros/chapt1/creat_node_with_rclcpp/build/example_cpp
+[2.042s] Invoked command in '/home/qianxunslimg/Desktop/study/ros_study/fish_ros/chapt1/creat_node_with_rclcpp/build/example_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/qianxunslimg/Desktop/study/ros_study/fish_ros/chapt1/creat_node_with_rclcpp/src -DCMAKE_INSTALL_PREFIX=/home/qianxunslimg/Desktop/study/ros_study/fish_ros/chapt1/creat_node_with_rclcpp/install/example_cpp
+[2.043s] Invoking command in '/home/qianxunslimg/Desktop/study/ros_study/fish_ros/chapt1/creat_node_with_rclcpp/build/example_cpp': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/qianxunslimg/Desktop/study/ros_study/fish_ros/chapt1/creat_node_with_rclcpp/build/example_cpp -- -j4 -l4
+[2.104s] [35m[1mScanning dependencies of target node_02[0m
+[2.105s] [35m[1mScanning dependencies of target node_01[0m
+[2.178s] [ 25%] [32mBuilding CXX object CMakeFiles/node_01.dir/src/node_01.cpp.o[0m
+[2.182s] [ 50%] [32mBuilding CXX object CMakeFiles/node_02.dir/src/node_02.cpp.o[0m
+[4.630s] [ 75%] [32m[1mLinking CXX executable node_01[0m
+[4.850s] [ 75%] Built target node_01
+[4.944s] [100%] [32m[1mLinking CXX executable node_02[0m
+[5.093s] [100%] Built target node_02
+[5.110s] Invoked command in '/home/qianxunslimg/Desktop/study/ros_study/fish_ros/chapt1/creat_node_with_rclcpp/build/example_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/qianxunslimg/Desktop/study/ros_study/fish_ros/chapt1/creat_node_with_rclcpp/build/example_cpp -- -j4 -l4
+[5.158s] Invoking command in '/home/qianxunslimg/Desktop/study/ros_study/fish_ros/chapt1/creat_node_with_rclcpp/build/example_cpp': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/qianxunslimg/Desktop/study/ros_study/fish_ros/chapt1/creat_node_with_rclcpp/build/example_cpp
+[5.167s] -- Install configuration: ""
+[5.167s] -- Installing: /home/qianxunslimg/Desktop/study/ros_study/fish_ros/chapt1/creat_node_with_rclcpp/install/example_cpp/share/ament_index/resource_index/package_run_dependencies/example_cpp
+[5.168s] -- Installing: /home/qianxunslimg/Desktop/study/ros_study/fish_ros/chapt1/creat_node_with_rclcpp/install/example_cpp/share/ament_index/resource_index/parent_prefix_path/example_cpp
+[5.168s] -- Installing: /home/qianxunslimg/Desktop/study/ros_study/fish_ros/chapt1/creat_node_with_rclcpp/install/example_cpp/share/example_cpp/environment/ament_prefix_path.sh
+[5.168s] -- Installing: /home/qianxunslimg/Desktop/study/ros_study/fish_ros/chapt1/creat_node_with_rclcpp/install/example_cpp/share/example_cpp/environment/ament_prefix_path.dsv
+[5.168s] -- Installing: /home/qianxunslimg/Desktop/study/ros_study/fish_ros/chapt1/creat_node_with_rclcpp/install/example_cpp/share/example_cpp/environment/path.sh
+[5.170s] -- Installing: /home/qianxunslimg/Desktop/study/ros_study/fish_ros/chapt1/creat_node_with_rclcpp/install/example_cpp/share/example_cpp/environment/path.dsv
+[5.170s] -- Installing: /home/qianxunslimg/Desktop/study/ros_study/fish_ros/chapt1/creat_node_with_rclcpp/install/example_cpp/share/example_cpp/local_setup.bash
+[5.170s] -- Installing: /home/qianxunslimg/Desktop/study/ros_study/fish_ros/chapt1/creat_node_with_rclcpp/install/example_cpp/share/example_cpp/local_setup.sh
+[5.170s] -- Installing: /home/qianxunslimg/Desktop/study/ros_study/fish_ros/chapt1/creat_node_with_rclcpp/install/example_cpp/share/example_cpp/local_setup.zsh
+[5.171s] -- Installing: /home/qianxunslimg/Desktop/study/ros_study/fish_ros/chapt1/creat_node_with_rclcpp/install/example_cpp/share/example_cpp/local_setup.dsv
+[5.171s] -- Installing: /home/qianxunslimg/Desktop/study/ros_study/fish_ros/chapt1/creat_node_with_rclcpp/install/example_cpp/share/example_cpp/package.dsv
+[5.171s] -- Installing: /home/qianxunslimg/Desktop/study/ros_study/fish_ros/chapt1/creat_node_with_rclcpp/install/example_cpp/share/ament_index/resource_index/packages/example_cpp
+[5.171s] -- Installing: /home/qianxunslimg/Desktop/study/ros_study/fish_ros/chapt1/creat_node_with_rclcpp/install/example_cpp/share/example_cpp/cmake/example_cppConfig.cmake
+[5.171s] -- Installing: /home/qianxunslimg/Desktop/study/ros_study/fish_ros/chapt1/creat_node_with_rclcpp/install/example_cpp/share/example_cpp/cmake/example_cppConfig-version.cmake
+[5.172s] -- Installing: /home/qianxunslimg/Desktop/study/ros_study/fish_ros/chapt1/creat_node_with_rclcpp/install/example_cpp/share/example_cpp/package.xml
+[5.172s] -- Installing: /home/qianxunslimg/Desktop/study/ros_study/fish_ros/chapt1/creat_node_with_rclcpp/install/example_cpp/lib/example_cpp/node_01
+[5.172s] -- Set runtime path of "/home/qianxunslimg/Desktop/study/ros_study/fish_ros/chapt1/creat_node_with_rclcpp/install/example_cpp/lib/example_cpp/node_01" to ""
+[5.172s] -- Installing: /home/qianxunslimg/Desktop/study/ros_study/fish_ros/chapt1/creat_node_with_rclcpp/install/example_cpp/lib/example_cpp/node_02
+[5.173s] -- Set runtime path of "/home/qianxunslimg/Desktop/study/ros_study/fish_ros/chapt1/creat_node_with_rclcpp/install/example_cpp/lib/example_cpp/node_02" to ""
+[5.174s] Invoked command in '/home/qianxunslimg/Desktop/study/ros_study/fish_ros/chapt1/creat_node_with_rclcpp/build/example_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/qianxunslimg/Desktop/study/ros_study/fish_ros/chapt1/creat_node_with_rclcpp/build/example_cpp
