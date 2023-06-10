@@ -15,12 +15,12 @@ if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
   add_compile_options(-Wall -Wextra -Wpedantic)
 endif()
 
-################################################################
-#add for solve clion debug due to can not find the so of interface
-##link_directories(/home/qianxunslimg/Desktop/suudy/ros_study/d2lros2/chapt3/chapt_ws/build/example_ros2_interfaces)
-add_library(example_ros2_interfaces SHARED IMPORTED)
-set_property(TARGET example_ros2_interfaces PROPERTY IMPORTED_LOCATION /home/qianxunslimg/Desktop/suudy/ros_study/d2lros2/chapt3/chapt_ws/build/example_ros2_interfaces/libexample_ros2_interfaces__rosidl_typesupport_fastrtps_cpp.so)
-################################################################
+# ################################################################
+# #add for solve clion debug due to can not find the so of interface
+# ##link_directories(/home/qianxunslimg/Desktop/suudy/ros_study/d2lros2/chapt3/chapt_ws/build/example_ros2_interfaces)
+# add_library(example_ros2_interfaces SHARED IMPORTED)
+# set_property(TARGET example_ros2_interfaces PROPERTY IMPORTED_LOCATION /home/qianxunslimg/Desktop/suudy/ros_study/d2lros2/chapt3/chapt_ws/build/example_ros2_interfaces/libexample_ros2_interfaces__rosidl_typesupport_fastrtps_cpp.so)
+# ################################################################
 
 # find dependencies
 find_package(ament_cmake REQUIRED)
@@ -32,16 +32,17 @@ add_executable(example_interfaces_robot_01 src/example_interfaces_robot_01.cpp)
 target_include_directories(example_interfaces_robot_01 PUBLIC
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
   $<INSTALL_INTERFACE:include>)
+  
 ament_target_dependencies(
   example_interfaces_robot_01
   "rclcpp"
   "example_ros2_interfaces"
 )
 
-################################################################
-#add for solve clion debug due to can not find the so of interface
-target_link_libraries(example_interfaces_robot_01 example_ros2_interfaces)
-################################################################
+# ################################################################
+# #add for solve clion debug due to can not find the so of interface
+# target_link_libraries(example_interfaces_robot_01 example_ros2_interfaces)
+# ################################################################
 
 install(TARGETS example_interfaces_robot_01
   EXPORT export_${PROJECT_NAME}
@@ -59,10 +60,10 @@ ament_target_dependencies(
         "example_ros2_interfaces"
 )
 
-################################################################
-#add for solve clion debug due to can not find the so of interface
-target_link_libraries(example_interfaces_control_01 example_ros2_interfaces)
-################################################################
+# ################################################################
+# #add for solve clion debug due to can not find the so of interface
+# target_link_libraries(example_interfaces_control_01 example_ros2_interfaces)
+# ################################################################
 
 install(TARGETS example_interfaces_control_01
         DESTINATION lib/${PROJECT_NAME})

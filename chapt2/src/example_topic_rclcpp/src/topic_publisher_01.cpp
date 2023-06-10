@@ -1,5 +1,6 @@
 #include "rclcpp/rclcpp.hpp"
 #include "std_msgs/msg/string.hpp"
+#include <chrono>
 
 class TopicPublisher01 : public rclcpp::Node
 {
@@ -11,7 +12,10 @@ public:
         // 创建发布者
         command_publisher_ = this->create_publisher<std_msgs::msg::String>("command", 10);
         // 创建定时器，500ms为周期，定时发布
-        timer_ = this->create_wall_timer(std::chrono::milliseconds(500), std::bind(&TopicPublisher01::timer_callback, this));
+        // timer_ = this->create_wall_timer(std::chrono::milliseconds(500), std::bind(&TopicPublisher01::timer_callback, this));
+
+        using namespace std::chrono_literals;
+        timer_ = this->create_wall_timer(500ms, std::bind(&TopicPublisher01::timer_callback, this));
     }
 
 private:

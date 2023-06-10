@@ -18,7 +18,7 @@ endif()
 # find dependencies
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
-find_package(example_interfaces REQUIRED)
+find_package(example_interfaces REQUIRED)  # this is needed
 
 
 if(BUILD_TESTING)
@@ -34,8 +34,8 @@ endif()
 
 ament_package()
 
-add_executable(client src/service_client_01.cpp)
-add_executable(server src/service_server_01.cpp)
+add_executable(client src/service_client.cpp)
+add_executable(server src/service_server.cpp)
 
 ament_target_dependencies(client rclcpp example_interfaces)
 ament_target_dependencies(server rclcpp example_interfaces)
