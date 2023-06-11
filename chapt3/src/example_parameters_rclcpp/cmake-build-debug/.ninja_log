@@ -1,7 +1,0 @@
-# ninja log v5
-2214	2381	1682077007685642114	parameters_basic	1e074c4b35d78a3
-10	2212	1682077007521640884	CMakeFiles/parameters_basic.dir/src/parameters_basic.cpp.o	26be01c5a5dcd7e3
-1	3258	1682077243387431346	CMakeFiles/parameters_basic.dir/src/parameters_basic.cpp.o	26be01c5a5dcd7e3
-3262	3497	1682077243627433185	parameters_basic	1e074c4b35d78a3
-9	1950	1682079175295061332	CMakeFiles/parameters_basic.dir/src/parameters_basic.cpp.o	26be01c5a5dcd7e3
-1950	2120	1682079175467061238	parameters_basic	1e074c4b35d78a3
